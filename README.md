@@ -1,16 +1,4 @@
-# covid_19
+# COVID-19 Dashboard
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This is a Covid19 dashboard. It displays vital information such as the number of COVID cases, recoveries, fatalities and other info ( includes both global and country-wise stats).
+The App also includes some FAQs and important guidelines.
