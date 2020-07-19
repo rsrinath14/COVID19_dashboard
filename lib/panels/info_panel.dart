@@ -8,20 +8,21 @@ class InfoPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child:Column(
-        children: <Widget>[
-          SizedBox(height:30),
-          GestureDetector(
-            onTap: (){
-              Navigator.push(context, MaterialPageRoute(builder:(context)=>FAQpage()));
-            },
-            child: Container(
+        child: Column(
+      children: <Widget>[
+        SizedBox(height: 30),
+        GestureDetector(
+          onTap: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => FAQpage()));
+          },
+          child: Container(
               padding: EdgeInsets.all(10),
-              color: primaryBlack,
-              margin: EdgeInsets.symmetric(vertical:5,horizontal: 20),
+              color: Colors.blueGrey[800],
+              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: <Widget>[             
+                children: <Widget>[
                   Text(
                     'FAQS',
                     style: TextStyle(
@@ -35,18 +36,16 @@ class InfoPanel extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ],
-              )
-
-            ),
-          ),
-          GestureDetector(
-            onTap:(){
-              launch('https://covid19responsefund.org/en/');
-            },
-            child: Container(
+              )),
+        ),
+        GestureDetector(
+          onTap: () {
+            launch('https://covid19responsefund.org/en/');
+          },
+          child: Container(
               padding: EdgeInsets.all(10),
-              color: primaryBlack,
-              margin: EdgeInsets.symmetric(vertical:5,horizontal: 20),
+              color: Colors.blueGrey[800],
+              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
@@ -63,18 +62,17 @@ class InfoPanel extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ],
-              )
-
-            ),
-          ),
-          GestureDetector(
-            onTap:(){
-              launch('https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters');
-            } ,
-            child: Container(
+              )),
+        ),
+        GestureDetector(
+          onTap: () {
+            launch(
+                'https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters');
+          },
+          child: Container(
               padding: EdgeInsets.all(10),
-              color: primaryBlack,
-              margin: EdgeInsets.symmetric(vertical:5,horizontal: 20),
+              color: Colors.blueGrey[800],
+              margin: EdgeInsets.symmetric(vertical: 5, horizontal: 20),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
@@ -91,13 +89,9 @@ class InfoPanel extends StatelessWidget {
                     color: Colors.white,
                   ),
                 ],
-              )
-
-            ),
-          ),
-
-        ],
-      )
-    );
+              )),
+        ),
+      ],
+    ));
   }
 }
