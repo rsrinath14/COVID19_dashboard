@@ -93,7 +93,7 @@ class _HomePageState extends State<HomePage> {
                   child: Container(
                     padding: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                        color: Colors.blueGrey[700],
+                        color: Colors.blueGrey[800],
                         borderRadius: BorderRadius.circular(15)),
                     child: Text(
                       'Regional',
